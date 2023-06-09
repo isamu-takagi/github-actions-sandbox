@@ -11,6 +11,6 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Run pre-commit
-        uses: autowarefoundation/autoware-github-actions/pre-commit@v1
+        uses: isamu-takagi/autoware-github-actions/pre-commit@feat/pre-commit-differential
         with:
           pre-commit-config: .pre-commit-config-optional.yaml
