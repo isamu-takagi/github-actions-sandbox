@@ -16,3 +16,4 @@ jobs:
         uses: isamu-takagi/autoware-github-actions/pre-commit@feat/pre-commit-differential
         with:
           pre-commit-config: .pre-commit-config-optional.yaml
+          base-branch: origin/${{ github.base_ref }}
