@@ -9,6 +9,8 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
       - name: Run pre-commit
         uses: isamu-takagi/autoware-github-actions/pre-commit@feat/pre-commit-differential
