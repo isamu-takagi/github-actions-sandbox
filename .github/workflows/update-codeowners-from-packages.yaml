@@ -1,0 +1,19 @@
+name: update-codeowners-from-packages
+
+on:
+  schedule:
+    - cron: 0 0 * * *
+  workflow_dispatch:
+
+jobs:
+  update-codeowners-from-packages:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run update-codeowners-from-packages
+        uses: isamu-takagi/autoware-github-actions/update-codeowners-from-packages@feat/set-author-to-create-pull-request
+        with:
+          token: ${{ secrets.PR_TOKEN }}
+          pr-labels: |
+            bot
+            update-codeowners-from-packages
+          auto-merge-method: squash
