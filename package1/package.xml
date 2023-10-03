@@ -5,6 +5,7 @@
   <version>1.0.0</version>
   <description>Dummy package</description>
   <maintainer email="isamu.takagi@tier4.jp">Takagi, Isamu</maintainer>
+  <maintainer email="example@example.com">Example</maintainer>
   <license>Apache License 2.0</license>
 
   <export>
