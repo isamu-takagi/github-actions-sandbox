@@ -1,5 +1,5 @@
 ### Copied from .github/CODEOWNERS-manual ###
 
 ### Automatically generated from package.xml ###
-package1/** isamu.takagi@tier4.jp
-package2/** isamu.takagi@tier4.jp
+package1/** example@example.com isamu.takagi@tier4.jp
+package2/** example@example.com isamu.takagi@tier4.jp
