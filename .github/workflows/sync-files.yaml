@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run sync-files
-        uses: autowarefoundation/autoware-github-actions/sync-files@v1
+        uses: isamu-takagi/autoware-github-actions/sync-files@feat/sync-file-source-dir
         with:
           token: ${{ secrets.TOKEN }}
           auto-merge-method: squash
