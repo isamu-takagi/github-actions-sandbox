@@ -1,4 +1,5 @@
-- repository: autowarefoundation/autoware
+- repository: isamu-takagi/sync-file-templates
+  ref: feat/copy-sync-file-sources
   files:
     - source: CODE_OF_CONDUCT.md
     - source: CONTRIBUTING.md
@@ -21,14 +22,8 @@
     - source: .yamllint.yaml
     - source: CPPLINT.cfg
     - source: setup.cfg
-
-- repository: autowarefoundation/autoware_common
-  files:
     - source: .pre-commit-config.yaml
     - source: codecov.yaml
-
-- repository: autowarefoundation/autoware-documentation
-  files:
     - source: mkdocs-base.yaml
       dest: mkdocs.yaml
       pre-commands: |
