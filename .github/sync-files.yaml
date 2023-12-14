@@ -1,4 +1,5 @@
 - repository: isamu-takagi/sync-file-templates
+  source-dir: sources
   ref: feat/copy-sync-file-sources
   files:
     - source: CODE_OF_CONDUCT.md
